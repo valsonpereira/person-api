@@ -43,13 +43,14 @@ cd person-api
 http://localhost:8080/api/v1/people
 ```
 
+Exemplo de Utilização da API
+
+
 ```bash
-
-
 # Cadastrar usuários 
 POST https://peopleapi-valson.herokuapp.com/api/v1/people
 
-# Corpo da mensagem
+# Corpo da mensagem (Estrutura do objeto JSON)
 
 {
     "firstName": "Joao Paulo",

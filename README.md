@@ -9,7 +9,7 @@ A aplicação consiste em uma API construída com Spring Boot que realiza as ope
 
 ### Link da API em produção 
 
-https://peopleapi-valson.herokuapp.com/v1/people
+https://peopleapi-valson.herokuapp.com/api/v1/people
 
 Obs.: Em razão do deploy ser realizado utilizando o plano gratuito do Heroku, a API pode levar alguns segundos para realizar as requisições.
 

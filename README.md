@@ -11,7 +11,7 @@ A aplicação consiste em uma API construída com Spring Boot que realiza as ope
 
 https://peopleapi-valson.herokuapp.com/v1/people
 
-Obs.: Em razão do deploy ser realizado utilizando o plano gratuito do Heroku, o dashboard pode levar alguns segundos para exibir os dados.
+Obs.: Em razão do deploy ser realizado utilizando o plano gratuito do Heroku, a API pode levar alguns segundos para realizar as requisições.
 
 
 ## Modelo de dados

@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Esta API Rest para gerenciamento de usuários é uma aplicação back-end com desenvolvida durante a live coding do instrutor [Rodrigo Peleias](https://github.com/rpeleias/ "GitHub do Rodrigo Peleias") organizada pela [Digital Innovation One](https://digitalinnovation.one/ "Site da Digital Innovation One").
+Esta API Rest para gerenciamento de usuários é uma aplicação back-end desenvolvida durante a live coding do instrutor [Rodrigo Peleias](https://github.com/rpeleias/ "GitHub do Rodrigo Peleias") organizada pela [Digital Innovation One](https://digitalinnovation.one/ "Site da Digital Innovation One").
 
 A aplicação consiste em uma API construída com Spring Boot que realiza as operações básicas de CRUD (criação, leitura, atualização e exclusão) para gerenciamento de usuários. 
 

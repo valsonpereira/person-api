@@ -27,7 +27,7 @@ Obs.: Em razão do deploy ser realizado utilizando o plano gratuito do Heroku, a
 
 # Como executar o projeto
 
-Pré-requisitos: Java 11
+Pré-requisitos: Java 11, Postman (Cliente HTTP para utilizar a API)
 
 ```bash
 # clonar repositório
@@ -41,6 +41,46 @@ cd person-api
 
 # endereço local para realizar as requisições REST
 http://localhost:8080/api/v1/people
+```
+
+```bash
+
+
+# Cadastrar usuários 
+POST https://peopleapi-valson.herokuapp.com/api/v1/people
+
+# Corpo da mensagem
+
+{
+    "firstName": "Joao Paulo",
+    "lastName": "Souza",
+    "birthDate": "23-03-1987",
+    "cpf": "115.337.418-83",
+    "phones": [
+        {
+            "type": "MOBILE",
+            "number": "(11)456879123"
+        }
+    ]
+}
+
+# Listar todos os usuários
+
+GET https://peopleapi-valson.herokuapp.com/api/v1/people
+
+# Listar usuário pelo ID
+
+GET https://peopleapi-valson.herokuapp.com/api/v1/people/{id}
+
+# Atualizar usuário 
+
+PUT https://peopleapi-valson.herokuapp.com/api/v1/people/{id}
+
+# Deletar usuário
+
+DELETE GET https://peopleapi-valson.herokuapp.com/api/v1/people/{id}
+
+
 ```
 
 

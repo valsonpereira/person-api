@@ -5,20 +5,19 @@
 
 Esta API Rest para gerenciamento de usuários é uma aplicação back-end desenvolvida durante a live coding do instrutor [Rodrigo Peleias](https://github.com/rpeleias/ "GitHub do Rodrigo Peleias") organizada pela [Digital Innovation One](https://digitalinnovation.one/ "Site da Digital Innovation One").
 
-A aplicação consiste em uma API construída com Spring Boot que realiza as operações básicas de CRUD (criação, leitura, atualização e exclusão) para gerenciamento de usuários. 
+A aplicação consiste em uma API construída com Spring Boot que realiza as operações básicas de CRUD (criação, leitura, atualização e exclusão) de usuários. 
 
 ### Link da API em produção 
 
 https://peopleapi-valson.herokuapp.com/api/v1/people
 
-Obs.: Em razão do deploy ser realizado utilizando o plano gratuito do Heroku, a API pode levar alguns segundos para realizar as requisições.
+Obs.: Em razão do deploy ser feito utilizando o plano gratuito do Heroku, a API pode levar alguns segundos para responder as requisições.
 
 
 ## Modelo de dados
 ![Modelo de dados](https://raw.githubusercontent.com/valsonpereira/my-assets/main/person-api/modelo_dados.png)
 
 # Tecnologias utilizadas
-## Back-end
 - Java 11
 - Spring Boot
 - Spring Data JPA 
@@ -27,7 +26,9 @@ Obs.: Em razão do deploy ser realizado utilizando o plano gratuito do Heroku, a
 
 # Como executar o projeto
 
-Pré-requisitos: Java 11, Postman (Cliente HTTP para utilizar a API)
+## Pré-requisitos
+- Java 11
+- Postman (Cliente HTTP para utilizar a API)
 
 ```bash
 # clonar repositório
